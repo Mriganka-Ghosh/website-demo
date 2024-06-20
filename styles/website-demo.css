@@ -1,0 +1,36 @@
+.ID-card
+{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px grey;
+  width: 400px;
+  background-color: lightblue;
+}
+.candidate-details
+{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.candidate-photo
+{
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  width: 95px;
+  margin-right: 50px;
+}
+.candidate-bio
+{
+  font-family: Arial;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.notice
+{
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+}

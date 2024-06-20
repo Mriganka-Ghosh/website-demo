@@ -1,0 +1,18 @@
+.stretch
+      {
+        background-color: rgb(9, 131, 9);
+        color: white;
+        padding-top:3px;
+        padding-left: 5px;
+        padding-bottom: 3px;
+        padding-right: 5px;
+        transition: padding 0.5s;
+        border:none;
+      }
+      .stretch:hover
+      {
+        padding-top:10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+      }

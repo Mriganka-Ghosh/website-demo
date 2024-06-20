@@ -1,0 +1,59 @@
+.first-name,
+.last-name
+{
+  font-family: Arial;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  padding-left: 16px;
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-right:16px;
+  font-size:16px;
+  margin-bottom: 12px;
+  width:150px;
+  border-color:rgb(200,200,200);
+}
+.email{
+  border-color:rgb(200,200,200);
+  font-family:Arial;
+  display: block;
+  margin-bottom:12px;
+  padding-left: 16px;
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-right:16px;
+  font-size:16px;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  width:341px;
+}
+.sign-up
+{
+  background-color: rgb(40, 127, 215);
+  text-align:center;
+  color:white;
+  font-weight: bold;
+  padding-left: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 8px;
+  width:377px;
+  border-radius:8px;
+  border:none;
+  font-size: 18px;
+  transition: opacity 0.15s;
+}
+.sign-up:hover
+{
+  cursor:pointer;
+  box-shadow:1px 1px 6px grey;
+}
+.sign-up:active
+{
+  box-shadow:none;
+  margin-left: 1px;
+  margin-top: 1px;
+  opacity: 0.7;
+}

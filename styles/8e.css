@@ -1,0 +1,63 @@
+.heading
+{
+  font-family: Arial;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.location,
+.destination
+{
+  padding-left:20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  background-color: rgb(242, 242, 242);
+  border:none;
+  border-radius: 4px;
+  display:block;
+  margin-bottom: 10px;
+  width:400px;
+  box-shadow:0px 0px 2px grey;
+}
+.destination
+{
+  margin-bottom:35px;
+}
+.request{
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.schedule{
+  background-color: rgb(240, 240, 240);
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+}
+
+.request,
+.schedule
+{
+  transition: opacity 0.15s;
+}
+.request:hover,
+.schedule:hover
+{
+  cursor:pointer;
+  opacity:0.7;
+}
+.request:active,
+.schedule:active
+{
+  opacity:0.3;
+}
