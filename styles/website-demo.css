@@ -22,7 +22,6 @@
 }
 .candidate-bio
 {
-  font-family: Arial;
   white-space: nowrap;
   font-size: 14px;
   font-weight: bold;
@@ -32,5 +31,4 @@
 {
   display: flex;
   justify-content: center;
-  font-family: Arial;
 }
